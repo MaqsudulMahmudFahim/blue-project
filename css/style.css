@@ -1,0 +1,371 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+
+header{
+    background-color: #121b2a; 
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px 0;
+    overflow: hidden;
+    
+}
+
+.logo{
+    width: 20%;
+    float: left;
+   
+}
+
+
+.logo a img{
+    width: 100%;
+}
+
+.menu{
+    width: 40%;
+    float: right;
+  
+}
+
+.menu ul{
+     width: 100%;
+     
+}
+
+.menu ul li{
+     list-style: none;
+}
+
+.menu ul li a{
+     float: left;
+     text-decoration: none;
+     padding: 0 10px;
+     display: block;
+     margin-top: 72px;
+     font-family: sans-serif;
+     color: white;
+}
+
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+
+.menu ul li a:hover{
+    color: #0079bc;
+    
+}
+
+
+.banner{
+   background-image: url(../image/cof.jpg); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: top center;
+   min-height: 500px;
+}
+
+.banner-content{
+    width:30%;
+    float: left;
+    margin-top: 100px;
+    color: white;
+}
+
+.banner-content p:first-child{
+    font-size: 20px;
+
+}
+
+.banner-content h1{
+    font-size: 30px;
+    color: #0079bc;
+    
+}
+
+.banner-content button{
+    margin-top: 20px;
+    padding: 10px;
+    font-family: cursive;
+    color: #595959;
+    border-radius: 10%;
+}
+
+.banner-content button span{
+    border: 2px solid blue;
+    border-radius: 50%;
+    font-size: 12px;
+    background-color: blue;
+    color: white;
+    font-family: cursive;
+}
+
+.banner-content button:hover{
+    color: #0079bc; 
+}
+
+.service{
+    background-color: #121b2a;
+    padding: 50px;
+    
+    
+}
+
+.single{
+    padding: 35px;
+    width:27%;
+    float:left;
+    border-right: 0.1px solid rgb(220, 218, 218);
+    border-width: 00.1px;
+  
+}
+
+.tittle{
+   overflow: hidden;
+}
+
+.icon{
+   width:20%;
+   float: left;
+}
+
+.icon img{
+    width: 100%;
+}
+
+.icon-name{
+   float: left; 
+   padding: 15px;  
+}
+
+.icon-name h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.icon-name  h2{
+    color: #0079bc;
+    text-transform: capitalize;
+    font-family: sans-serif;
+
+}
+
+.detail{
+   margin-top: 10px;
+   color: white;
+   font-size: 15px;
+   font-family: sans-serif;
+   line-height:1.5em;
+}
+
+.last{
+   padding-right: 0;
+   border-right: none;
+}
+
+.last h1{
+    float: left;
+    width:10%;
+    font-size: 22px;
+}
+
+.last h2{
+    float:right;
+    margin-left: 10px;
+   
+}
+
+.end p{
+    margin-top: 30px;
+}
+
+/*section 3 */
+
+.section3{
+     background-color: #040811;
+     overflow: hidden;
+     font-family: sans-serif;
+}
+
+.first_part{
+     
+      width:25%;
+      float:left;
+      margin:50px;
+      color: #595959;
+      
+}
+
+.first_upper{
+     
+}
+
+.first_upper h2{
+     color: white;
+}
+
+span{
+    color: #0079bc;
+}
+.first_lower{
+   margin-top: 10px;
+}
+
+
+.second_part{
+     
+      width:25%;
+      min-height: 150px;
+      margin: 50px;
+      color:#595959;
+      font-family: sans-serif;
+   
+      float: left;
+
+      
+}
+
+
+
+.shape{
+   
+   
+}
+
+.shape_content{
+    
+    
+    margin: 5px;
+  
+ 
+    
+}
+
+.shape h2{
+    color:white
+}
+
+
+#talkbubble {
+    min-width: 250px;
+    min-height: 100px;
+    background: #0c1019;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 5px;
+  }
+  #talkbubble:before {
+    
+        content: "";
+        position: absolute;
+        right: 0%;
+        top: 129px;
+        width: 15px;
+        border-top: -20px solid transparent;
+        border-left: 64px solid #0c1019;
+        border-bottom: 26px solid transparent;
+   
+  }
+
+.lower_shape{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.lower_shape h3{
+    color: white;
+}
+
+
+.third_part{
+  
+   width: 25%;
+   min-height: 190px;
+   float: right;
+   margin-left: 50px;
+   margin-top: 50px;
+   float: hidden;
+   color: #717479;
+   
+}
+
+.mob{
+    
+    min-height: 190px;
+    width: 39%;
+    float: left;
+    
+}
+
+.mob img{
+    width:100%;
+}
+
+.app{
+    
+    min-height: 200px;
+    width: 58%;  
+    float: right;
+}
+
+.app img{
+    margin-left: -10px;
+}
+
+/*Footer Css*/
+.footer{
+   background-color: #121b2c;
+   min-height: 100px;
+   overflow: hidden;
+   
+}
+
+.fot_left{
+   
+   float: left;
+   width: 55%;
+   min-height: 100px;
+   margin: 5px;
+}
+
+
+.fot_right{
+    
+    float: right;
+    width: 40%;
+    min-height: 100px;
+    margin: 5px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+nav.menu.for_menu {
+    float: left;
+    width: 100%;
+    margin-top: -54px;
+    font-size: 14px;
+    
+}
+
+a {
+    border-right: 1px solid white;
+}
+
+#con{
+    border-right: none;
+}
+.copy{
+
+}
+.copy p{
+    color: white;
+    margin:47px;
+    font-size: 12px;
+   
+}
